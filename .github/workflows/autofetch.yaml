@@ -28,7 +28,7 @@ jobs:
 
       # install required packages
       - name: install packages
-        run: pip install pandas beautifulsoup4 html5lib lxml
+        run: pip install pandas beautifulsoup4 html5lib lxml requests
 
       # run the script
       - name: fetch new data
